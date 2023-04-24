@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SRV</title>
+</head>
+<style>
+    
+    
+    @import url('https://fonts.googleapis.com/css2? família=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+    
+    body, *{
+        margin: 0;
+        padding: 0;
+    }
+    body div{
+        margin: auto;
+    }
+    .main{
+        margin: 0;
+        padding: 0;
+        padding-top: 80px;
+        height: 100vh;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    .main-box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Roboto', sans-serif;
+
+        width: 300px;
+        height: 300px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .main-box .log-tittle{
+        color: white;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0;
+    }
+    .main-box input{
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        width: 120px;
+        background-size: 200% auto;
+        color: white;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        box-shadow: 0 0 10px #eee;
+        border-radius: 10px;
+        border: none;
+    }
+    .btn:hover {
+        background-position: right center; /* change the direction of the change here */
+    }
+    .btn-3 {
+        background-image: linear-gradient(to right, #ffffff33 0%, #8fd3f4 51%, #ffffff33 100%);
+    }
+    .input-text{
+        background: rgba(255, 255, 255, 0.2);
+        border: none;
+        border-radius: 7px;
+    }
+
+
+</style>
+<body>
+    <div class="main">
+        <div class="main-box">
+            <div class="log-tittle">Faça seu login:</div>
+            <input class="input-text" type="text" placeholder="Insira seu e-mail">
+            <input class="input-text" type="text" placeholder="insira sua senha">
+            <input class="btn btn-3" type="button" value="LOG IN">
+            <input class="btn btn-3" type="button" value="REGISTER">
+        </div>
+    </div>
+    
+</body>
+
+</html>
